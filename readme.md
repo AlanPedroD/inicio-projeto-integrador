@@ -1,5 +1,5 @@
 <h2>Sprint 01 Projeto integrador</h2>
-<h3>Protótipo inicial do prjeto</h3>
+<h3>Protótipo inicial do projeto</h3>
 <h4>Equipe:</h4>
 <h5>Leonardo Vinicius</h5>
 <h5>Yuri Oliveira</h5>
