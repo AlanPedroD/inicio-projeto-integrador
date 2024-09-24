@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="/arquivos html/feed.html">Feed de Notícias</a></li>
+            <li><a href="videos.html">Vídeos e Cursos</a></li>
+            <li><a href="formulario.html">Formulário</a></li>
+            <li><a href="/arquivos html/quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+    <div class="container"></div>
+        <h1>Quiz de Tecnologia</h1>
+        <div id="quiz-container">
+            <div id="question">Carregando pergunta...</div>
+            <div id="choices">
+                <!-- Opções serão geradas dinamicamente -->
+            </div>
+            <div id="feedback"></div>
+        </div>
+        <button id="next-btn" onclick="nextQuestion()">Próxima pergunta</button>
+        <div id="scoreboard">
+            <h2>Ranking</h2>
+            <ol id="ranking">
+                <!-- Ranking será atualizado aqui -->
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

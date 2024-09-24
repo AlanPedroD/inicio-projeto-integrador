@@ -86,3 +86,58 @@ footer {
         width: 100%; /* Ajusta para 1 card por linha em telas muito pequenas */
     }
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-container {
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#choices button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    margin-top: 30px;
+}
+
+#ranking {
+    text-align: left;
+    padding-left: 20px;
+}
